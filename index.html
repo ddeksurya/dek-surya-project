@@ -14,7 +14,15 @@
   h5{color: crimson;}
   p{color:blue;padding-bottom: 15px;}
   button{color: darkred;background-color: chartreuse;border-color: aliceblue;border-radius: 50px;}
+img{filter: grayscale(100);
+  width: 200px;
+  aspect-ratio: 4/3; 
+  object-fit: contain;
+  transition: all.3s ease;}
+  img:hover{filter:grayscale(0);}
+
 </style>
+
 </head>
 <body>
   <h1>Hello, world!</h1>
@@ -34,6 +42,10 @@
     <li>malam hari</li>
 
   </ul>
+  <img src="image/gambar1.jpg" alt="">
+<img src="image/gambar2.jpg" alt="">
+<img src="image/gambar 3.jpg" alt="">
+<img src="image/gambar 4.jpg" alt="">
   <button onclick="console.log('hello');">Press me</button>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
